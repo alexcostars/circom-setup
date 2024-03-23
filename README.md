@@ -14,3 +14,8 @@ cd circom
 cargo build --release
 cargo install --path circom
 ```
+
+# Compile a circuit
+```bash
+circom circuit.circom --r1cs --wasm --sym --c
+```
