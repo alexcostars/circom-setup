@@ -19,3 +19,8 @@ cargo install --path circom
 ```bash
 circom circuit.circom --r1cs --wasm --sym --c
 ```
+
+# Paillier encryption scheme
+```circom
+(g ** message % n2) * (random ** n % n2) % n2
+```
